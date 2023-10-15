@@ -24,7 +24,7 @@
     -->
     <!-- *** Uncomment them as requirement ***-->
 
-<!--     <websitename url = "https://leetcode.com/" nameOfTheWebsite = "LeetCode" column_name = "LeetCode id"/>-->
+<!-- <websitename url = "https://leetcode.com/" nameOfTheWebsite = "LeetCode" column_name = "LeetCode id"/>-->
 
     <!-- <websitename url = "https://www.codechef.com/users/" nameOfTheWebsite = "CodeChef" column_name = "Codechef id"/> -->
 
