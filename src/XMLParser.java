@@ -32,6 +32,7 @@ public class XMLParser{
         }
         if(TagName.equals("InputFilePath"))
         {
+            if(fileName.equals("") || filePath.equals("")) ErrorPopUp.startErrorPopUp("Invalid Input Paramters" , "Parameters.xml File No Input File To Read");
            Data.setInputFilePath(filePath);
            Data.setInputFileName(fileName);
         }

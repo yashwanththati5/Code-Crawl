@@ -17,7 +17,7 @@ public class FetchTheData{
     }
     public void runTheGeekforgeeksAutomationOnUseraccount(String userName)
     {
-        new GeekForGeeksAutomation().startTheAutomation(userName);
+        new GeeksForGeeksAutomation().startTheAutomation(userName);
     }
     public void runTheAutomationOnData() throws IOException {
         userData = new ArrayList<>();
