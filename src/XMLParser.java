@@ -67,7 +67,7 @@ public class XMLParser{
             Data.setCodeforcesUrl(element.getAttribute("url"));
             Data.setCodeforcesColumnName(element.getAttribute("column_name"));
         }
-        if(webSiteName.equals("GeekForGeeks"))
+        if(webSiteName.equals("GeeksForGeeks"))
         {
             Data.setGeekforgeeksUrl(element.getAttribute("url"));
             Data.setGeekforgeeksColumnName(element.getAttribute("column_name"));
