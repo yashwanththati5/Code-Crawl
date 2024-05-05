@@ -10,16 +10,14 @@
 <img width="1422" alt="Screenshot 2024-05-05 at 3 19 06 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/3d58c0bf-3316-4642-b88c-aeef922afbf9">
 <br>
 <h2>Success dialog after the run looks like</h2>
-<img width="903" alt="Screenshot 2024-05-05 at 3 24 06 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/4339e00d-ff2f-4feb-b7ba-0681a81ecc25">
+<img width="1000" alt="Screenshot 2024-05-05 at 3 24 06 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/4339e00d-ff2f-4feb-b7ba-0681a81ecc25">
 <br>
 <h2>Output hosted in browser looks like</h2>
 <img width="1440" alt="Screenshot 2024-05-05 at 3 44 30 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/69865743-c72e-4460-b734-09a1443fc27c">
-
+<br>
 <h2>Error PopUp Looks Like</h2>
-
-
-![WhatsApp Image 2023-10-15 at 8 09 08 PM](https://github.com/yashwanththati5/Code-Crawler/assets/58801238/a5d9456c-84ab-4097-a9b9-6775276c6bfe)
-
+<img width="1000" alt="Screenshot 2024-05-05 at 3 27 19 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/c9bf6920-275e-47f5-a785-5fd6d8637bd2">
+<br>
 
 
 # Instructions to be followed for execution:
