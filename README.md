@@ -1,6 +1,4 @@
 # Hello There !
-Welcome to my project! This README will guide you through the setup and usage of the project. Feel free to reach out if you have any questions or need further assistance.
-
 <ul>
 <li>This is a Java Automation project which will fetch the user data from famous websites like : <b>LeetCode</b> ,<b>Code Chef</b> ,<b>Code Forces</b>,<b> Geeks For Geeks</b>.</li>
 <li>This project has 2 versions for now: </li>
