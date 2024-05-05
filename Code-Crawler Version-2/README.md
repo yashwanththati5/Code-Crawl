@@ -2,17 +2,18 @@
 <ul>
 <li>This is a Java Automation project which will fetch the user data from famous websites like : <b>LeetCode</b> ,<b>Code Chef</b> ,<b>Code Forces</b>,<b> Geeks For Geeks</b>.</li>
 <li>It takes an input file (.csv) in which it contains user id's of different plaform's.</li>
-<li>Returns an output file (.csv) where the fetched data will be given to the user.</li>
+<li>The output data will be hosted in localhost where user can dowload the data in (.csv) format.</li>
 <li>We have a <b>Paramters.xml</b> file for setting the required paramters for the autmation run.</li>
-<li>We also have an <b>Error Popup</b> if there is any flow error , so that user can understand better than a Error Log 😂.We do have an Error Log (Don't Worry😂).</li>
+<li>We also have an <b>Error Mechanism</b> if there is any flow error , so that user can understand better than a log.</li>
 </ul>
-<h2>Parameters.xml Looks Like</h2>
-<img width="1395" alt="Screenshot 2023-10-15 at 8 22 47 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/09df2d25-9519-48ba-986c-c45f99729155">
-
-
-
+<h2>Parameters.xml like</h2>
+<img width="1422" alt="Screenshot 2024-05-05 at 3 19 06 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/3d58c0bf-3316-4642-b88c-aeef922afbf9">
 <br>
-
+<h2>Success dialog after the run looks like</h2>
+<img width="903" alt="Screenshot 2024-05-05 at 3 24 06 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/4339e00d-ff2f-4feb-b7ba-0681a81ecc25">
+<br>
+<h2>Output hosted in browser looks like</h2>
+<img width="1440" alt="Screenshot 2024-05-05 at 3 44 30 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/69865743-c72e-4460-b734-09a1443fc27c">
 
 <h2>Error PopUp Looks Like</h2>
 
