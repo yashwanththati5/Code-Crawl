@@ -16,19 +16,16 @@
 <img width="1440" alt="Screenshot 2024-05-05 at 3 44 30 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/69865743-c72e-4460-b734-09a1443fc27c">
 <br>
 <h2>Error PopUp Looks Like</h2>
-<img width="1000" alt="Screenshot 2024-05-05 at 3 27 19 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/c9bf6920-275e-47f5-a785-5fd6d8637bd2">
+<img width="700" alt="Screenshot 2024-05-05 at 3 27 19 PM" src="https://github.com/yashwanththati5/Code-Crawler/assets/58801238/c9bf6920-275e-47f5-a785-5fd6d8637bd2">
 <br>
 
 
 # Instructions to be followed for execution:
 <ul>
 <li>Make sure that your system had Java setup.</li>
-<li>Make sure the Input File (Path & Name) & Output File (Path & Name) are set in <b>Parameters.xml</b> (<b>Read the Comments in File Carefully before editing</b>).</li>
-<h2>Run these commands in Terminal / Command Promt</h2>
-<li>cd Code-Crawler</li>
-<li>For Compilation: <b>javac -d out -cp '.:libs/*' -nowarn src/*.java</b></li>
-<li>For Automtion Run: <b>java -cp 'out:libs/*' StartTheAutomation 2> Error.log</b></li>
-<li>If everything is good you will have a output file (.csv) else An Error.log & PopUP.</li>
+<li>Make sure the Input File (Path & Name) are set in <b>Parameters.xml</b> (<b>Read the Comments in File Carefully before editing</b>).</li>
+<li>Use the <b>AutomationRun.bat</b> for compilation & execution in <b>Windows</b>.</li>
+<li>Use the <b>AutomationRun.sh</b> for compilation & execution in <b>Mac & Linux</b>.</li>
 </ul>
 
 
