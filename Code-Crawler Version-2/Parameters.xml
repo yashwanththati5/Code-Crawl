@@ -1,0 +1,36 @@
+<!--**** Note Read the Comments Before Changing anything in the file ****-->
+<parameters>
+
+    <!-- Try to keep the Input File as (.csv) file if it is (.xlsx , .xlsm , .xls)
+    Convert here for .csv
+    Link: https://cloudconvert.com/xlsx-to-csv
+    Please add the .csv extension in filename attribute
+    -->
+
+    <InputFilePath path = "" filename = ""/>
+
+
+    <!--
+        Edit these attributes it takes database username , password , and database name
+    -->
+
+    <dbconfiguration username = "root" password = "password" dbname = "dbname"/>
+
+    <!-- The websites we crawl are LeetCode , CodeChef , CodeForces , GeeksForGeeks.
+
+    Don't edit the "url" , column_name must be given for the automation
+
+    (column_name the column in input file where the id's present for particular website)
+
+    -->
+    <!-- *** Uncomment them as requirement ***-->
+
+<!--    <leetcode url = "https://leetcode.com/"  column_name = "" />-->
+
+<!--    <codechef url = "https://www.codechef.com/users/"  column_name = "" />-->
+
+<!--    <codeforces url = "https://codeforces.com/profile/"  column_name = "" />-->
+
+<!--    <geeksforgeeks url = "https://auth.geeksforgeeks.org/user/"  column_name = "" />-->
+
+</parameters>

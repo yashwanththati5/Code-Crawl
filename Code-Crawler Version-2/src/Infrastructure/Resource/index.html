@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Crawler Report</title>
+    <style>
+        table {
+             border-collapse: collapse;
+             width: 100%;
+             margin-top: 50px;
+         }
+        th, td {
+          padding: 10px;
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+        th {
+          background-color: #f2f2f2;
+        }
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .download-button:hover {
+            background-color: #f2f2f2;
+        }
+        .download-icon {
+            margin-right: 5px;
+            font-size: 18px;
+        }
+        .download-container {
+            text-align: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .download-button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <script>
+        function downloadCSV() {
+          var table = document.getElementById("myTable");
+          var rows = table.querySelectorAll("tr");
+          var csvData = "";
+          for (var i = 0; i < rows.length; i++) {
+            var cells = Array.from(rows[i].querySelectorAll("th,td"));
+            if (cells.length > 0) {
+              csvData += cells.map(cell => {
+                var value = cell.innerText.replace(/["",]/g, '""');
+                return value ? `"${value}"` : "";
+              }).join(",") + "\n";
+            }
+          }
+          var blob = new Blob([csvData], { type: 'text/csv' });
+          var link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = "output.csv"; // Set desired filename
+          link.click();
+        }
+    </script>
+</head>
